@@ -1,4 +1,4 @@
-sbt-blank
+sbt-blank-multi
 =========
 
-空白项目
+包含子项目的空白sbt项目
