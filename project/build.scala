@@ -4,7 +4,8 @@ import Keys._
 object BlankBuild extends Build {
 	val mySettings = Seq(
 		scalaVersion := "2.10.1",
-		sbtVersion := "0.12.3"
+		sbtVersion := "0.12.3",
+		libraryDependencies ++= Seq()
 	)
 
 	lazy val root = Project(
